@@ -1,0 +1,24 @@
+public class task2 {
+    public static void main(String[] args) {
+            int a[] = {10,20,30,40};
+            int b[] = {50,60,70,80};
+
+            int aL = a.length;
+            int bL = b.length;
+
+            int cL = aL + bL;
+            int c[] = new int[cL];
+
+            for (int i = 0; i < aL; i++) {
+                c[i] = a[i];
+            }
+            for (int i = 0; i < b.length; i++) {
+                c[aL + i] = b[i];
+            }
+            System.out.println();
+            for (int i = 0; i < cL; i++) {
+                System.out.print(c[i]+",");
+            }
+        }
+    }
+
