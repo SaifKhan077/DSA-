@@ -1,0 +1,20 @@
+public class task4 {
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+
+        int evens=0;
+        int odds=0;
+
+        for (int num : nums) {
+            if (num % 2 == 0) {
+                evens++;
+            }
+            else {
+                odds++;
+            }
+        }
+        System.out.println("The number of evens is:: " + evens);
+        System.out.println("The number of odds is:: " + odds);
+
+    }
+}
